@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(217, 221, 225);
+}
+
+#list_menu {
+    list-style-type: none;
+    padding-bottom: 8px;
+}
+
+#list_menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+#list_menu a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(101, 102, 103);
+    font-size: 18px;
+}
+
+#list_menu a:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
+#logo {
+    position: static;
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: black;
+}
+
+#blog {
+    color: rgb(236, 234, 234);
+}
+
+#pai {
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 70%;
+}
+
+#menu-lateral {
+    list-style-type: none;
+}
+
+#menu-lateral a {
+    text-decoration: none;
+    color: rgb(101, 102, 103);
+    font-size: 18px;
+}
+
+#menu-lateral a:hover {
+    color: black;
+}
+
+#categorias {
+    background-color: gold;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#postagens {
+    padding: 10px;
+    background-color: gold;
+}
+
+.cabecalho {
+    background-color: gold;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.titulo {
+    color: gold;
+    
+}
+
+.conteudo-lateral {
+    width: 23%;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-lateral a {
+    color: rgb(101, 102, 103);
+    text-decoration: none;
+}
+
+.conteudo {
+    background-color: white;
+    width: calc(75% - 40px);
+    padding: 10px;
+}
+
+.conteudo a {
+    color: gold;
+    text-decoration: none;
+}
+

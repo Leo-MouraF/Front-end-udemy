@@ -1,0 +1,162 @@
+#cabecalho {
+    height: 230px;
+    background-image: url(../img/fundo.png);
+}
+
+#img_brasil {
+    float: right;
+    margin-right: 31%;
+}
+
+#logo {
+    float: left;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+#menu-ul {
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20%;
+    background-color: rgb(194, 41, 41);
+}
+#menu-ul li {
+    padding: 18px;
+    margin-left: 0;
+    float: left;
+}
+#menu-ul li:hover {
+    color: azure;
+    background-color: rgb(123, 20, 20);
+}
+
+#corpo {
+    width: 100%;
+}
+
+#entrevistas {
+    width: 200px;
+    margin-left: 20%;
+    float: left;
+}
+#entrevistas ul {
+    list-style-type: none;
+}
+#entrevistas li {
+    padding: 5px;
+}
+
+#ultima-entrevista {
+    width: 250px;
+    float: left;
+    /* display: inline; */
+    margin-left: 5%;
+    margin-top: 0;
+    padding: 5px;
+
+}
+
+#destaques {
+    width: 250px;
+    float: left;
+    /* display: inline; */
+    margin-left: 5%;
+    margin-top: 0;
+    padding: 5px;
+}
+
+#novas {
+    float: left;
+    clear: both;
+    margin-left: 20%;
+}
+#novas legend{
+    background-color: darkblue;
+    color: azure;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#botao-enviar {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: brown;
+    padding: 3px;
+}
+
+#input-email {
+    border: none;
+    height: 20px;
+}
+
+#corpo2 {
+    /* position: absolute; */
+    top: 65%;
+    left: 16%;
+}
+
+#mundo {
+    width: 250px;
+    float: left;
+    margin-left: 5%;
+}
+#mundo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#mundo img {
+    width: 100px;
+    float: left;
+}
+#mundo a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 8, 255);
+}
+
+#noticias-recentes {
+    width: 250px;
+    float: left;
+    margin-left: 5%;
+}
+#noticias-recentes ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#noticias-recentes a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 8, 255);
+}
+#noticias-recentes img {
+    width: 100px;
+    float: left;
+}
+#rodape {
+    clear: both;
+    padding: 20px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.subtitulo {
+    background-color: brown;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.titulo {
+    background-color: darkblue;
+    color: aliceblue;
+    text-align: center;
+}
+
+.imagem {
+    width: 230px;
+    margin-left: 4%;
+}

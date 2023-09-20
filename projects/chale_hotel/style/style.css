@@ -1,0 +1,96 @@
+#cabecalho {
+    display: flex;
+    margin-left: 10%;
+}
+
+#lateral-topo {
+    margin-left: -5%;
+    display: flex;
+}
+
+#logo {
+    width: 150px;
+    margin-left: 1%;
+    margin-top: 1%;
+    position: absolute;
+}
+
+#conteudo-topo-lateral {
+    display: flex;
+    margin-left: -60%;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+
+#menu ul {
+    list-style-type: none;
+}
+#menu li {
+    padding: 0.5em;
+}
+#menu a {
+    text-decoration: none;
+    color: rgb(122, 101, 70);
+}
+#menu a:hover {
+    color: aliceblue;
+}
+
+#img-depoimento {
+    padding-top: 8%;
+    margin-left: 30%;
+}
+
+#reserva {
+    display: flex;
+    position: absolute;
+    padding-left: 3%;
+    width: 30%;
+}
+#reserva div {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* padding-left: 3%; */
+}
+#reserva input {
+    float: right;
+    background-color: rgb(122, 101, 70);
+    border: none;
+    padding: 5px;
+    color: rgb(222, 186, 132);
+}
+#reserva p, hr {
+    color: rgb(122, 101, 70);
+}
+
+#conteudo-corpo {
+    display: flex;
+    width: 73.7%;
+    margin-left: 10%;
+}
+
+#main {
+    width: 60%;
+}
+
+#info-lateral {
+    display: flex;    
+    flex-flow: column wrap;
+    width: 40%;
+    padding: 1em;
+    border: 2px solid red;
+    flex-shrink: 10;
+    background-color: rgb(219, 208, 111);
+}
+#info-lateral > div {
+    display: flex;
+}
+#info-lateral img {
+    width: 200px;
+}
+
+.titulo-texto h4, p{
+    display: block;
+}
