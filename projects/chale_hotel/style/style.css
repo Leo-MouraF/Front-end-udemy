@@ -5,6 +5,9 @@
 
 #lateral-topo {
     margin-left: -5%;
+    width: 100%;
+    background-image: url(../img/topo-imagem-lateral.png);
+    background-repeat: no-repeat;
     display: flex;
 }
 
@@ -15,14 +18,10 @@
     position: absolute;
 }
 
-#conteudo-topo-lateral {
+#menu {
     display: flex;
-    margin-left: -60%;
-    padding-top: 5%;
-    padding-left: 3%;
+    border: 2px solid red;
 }
-
-
 #menu ul {
     list-style-type: none;
 }
@@ -39,26 +38,24 @@
 
 #img-depoimento {
     padding-top: 8%;
-    margin-left: 30%;
 }
 
 #reserva {
     display: flex;
-    position: absolute;
-    padding-left: 3%;
-    width: 30%;
+    max-height: 50px;
 }
-#reserva div {
-    width: 100%;
+#reserva > div{
+    display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    /* padding-left: 3%; */
+    padding-left: 30px;
+    width: 100%;
 }
 #reserva input {
     float: right;
     background-color: rgb(122, 101, 70);
     border: none;
-    padding: 5px;
+    padding: 3px;
+    margin-left: 30px;
     color: rgb(222, 186, 132);
 }
 #reserva p, hr {
