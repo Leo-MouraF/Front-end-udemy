@@ -8,7 +8,6 @@
 }
 
 #lateral-topo {
-    margin-left: -5%;
     background-image: url(../img/topo-imagem-lateral.png);
     background-repeat: no-repeat;
     display: flex;
@@ -53,7 +52,10 @@
 
 #reserva {
     display: flex;
-    max-height: 50px;
+    margin-top: 10px;
+    align-items: baseline;
+    border-bottom: 1px solid rgb(122, 101, 70);
+    border-top: 1px solid rgb(122, 101, 70);
 }
 #reserva > div{
     display: flex;
@@ -66,6 +68,8 @@
     background-color: rgb(122, 101, 70);
     border: none;
     padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 30px;
     color: rgb(222, 186, 132);
 }
@@ -106,15 +110,16 @@
 }
 
 #contato {
+    display: block;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
 }
 #contato div {
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex; */
     margin: 10px;
+}
+#contato input {
+    width: 100%;
 }
 
 #enviar-contato input {
