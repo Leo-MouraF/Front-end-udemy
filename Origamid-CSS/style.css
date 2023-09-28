@@ -1,0 +1,84 @@
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+/* Flex containers */
+
+/* justify-content: Não funciona com a propriedade de 
+flex: 1, pois se está declarada essa propriedade,
+irá automaticamente ocupar todo o espaço disponível
+no container, não havendo encaixe para justify-content. */
+
+/* align-items -> Quando em row, se refere a vertical
+e quando em column, se refere a horizontal o posicionamento. */
+
+/* align-content -> Vai sempre funcionar no eixo vertical,
+para que possa funcionar os itens devem ser sempre 
+flex-wrap: wrap, pois se não, não estarão ocupando linhas
+diferentes. O container deve ser maior do que a soma
+total do tamanho de todos os itens.  */
+
+/*  Flex item (filhos direto do felx container) */
+
+/* flex-grow: Por padrão, 0, cada um ocupa o espaço do 
+próprio conteúdo. com o valor 1, será utilizado o máximo
+do container, ou seja, 100%. Cada item pode utilizar
+um número diferente, sendo 2 o dobro de 1 e assim por
+diante. Eles crescem em proporção */
+
+/* felx-basis: Por padrão, é o valor auto.Para o basis funcionar
+precisa-se que haja o flex-grow 1. Serve para a distribuição
+do conteúdo dentro do item. Sendo auto, vai colocar um valor
+igual para os dois lados do container. (em caso de dúvidas:
+https://www.origamid.com/slide/css-flexbox/#/flex-basis).
+  */
+
+  /* flex-shrink: valor padrão, 1.  Define a capacidade
+  de redução de um item. */
+
+  /*  flex: flex-grow flex-basis flex-shrink
+  é recomendável que seja utilizado somente flex: 1,
+  porque ai já define da melhor forma todos os atributos
+   */
+
+   /* order: quanto menor o número, maior prioridade em
+   aparecer. */
+
+   /* align-self: alinha o item de acordo com o valor */
+
+
