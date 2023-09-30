@@ -225,10 +225,14 @@ img {
     padding: 30px;
 }
 
-.carrinho-bg {
+    .carrinho {
     position: fixed;
-    float: right;
+    bottom: 10px;
+    right: 0;
     z-index: 99;
+    padding: 12px;
+    border-radius: 100px;
     font-size: 2em;
     color: #222222;
+    background: #54A316;
 }
